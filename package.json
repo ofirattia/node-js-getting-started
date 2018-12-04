@@ -1,6 +1,6 @@
 {
   "name": "node-js-getting-started",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "A sample Node.js app using Express 4",
   "engines": {
     "node": "10.x"
@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
-	"deploy":"heroku create sce-nodejs"
+    "deploy": "heroku create sce-nodejs"
   },
   "dependencies": {
     "ejs": "^2.5.6",
